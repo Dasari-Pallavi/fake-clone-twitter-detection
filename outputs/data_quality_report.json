@@ -1,0 +1,9 @@
+{
+  "rows_before": 3120,
+  "missing_values": {
+    "Location": 60,
+    "Hashtags": 945
+  },
+  "duplicate_rows": 0,
+  "rows_after": 3120
+}

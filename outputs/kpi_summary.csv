@@ -1,0 +1,11 @@
+KPI,Value
+Total accounts analysed,3120.0
+Fake/bot accounts,1462.0
+Fake account rate (%),46.86
+Avg followers - fake,428.8
+Avg followers - genuine,1410.7
+Avg retweets - fake,37.6
+Avg retweets - genuine,11.9
+Avg digits in username - fake,5.06
+Avg digits in username - genuine,0.41
+Verified share among fake (%),1.37
