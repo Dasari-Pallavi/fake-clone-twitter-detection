@@ -55,12 +55,14 @@ Out of scope: real-time detection, live Twitter API integration, account suspens
 10. Present insights and recommendations
 
 ## 9. Business insights template (fill with your real numbers)
-- Fake accounts make up **X%** of the dataset.
-- Fake accounts have **more/fewer** followers on average (X vs Y) but **more** retweets (X vs Y).
-- Usernames with many digits are a strong fake signal (X digits vs Y).
-- The top three signals by importance are: ___, ___, ___.
-- **Model X** gave the best F1 (X); precision was X and recall was X.
-- N suspected clone pairs were found; reviewing the top 20 by smallest distance is a practical first batch.
+## 9. Business insights
+- Fake accounts make up **46.86%** of the dataset (1,462 out of 3,120 accounts).
+- Fake accounts have **fewer** followers on average (**428.8** vs **1,410.7**) but **more** retweets (**37.6** vs **11.9**).
+- Usernames with many digits are a strong fake signal (**5.06** digits vs **0.41**).
+- The top three signals by importance are: **username digit count**, **follower count**, and **retweet count**.
+- **Decision Tree** gave the best F1 (**0.9529**); precision was **0.994** and recall was **0.9151**.
+- **30** suspected clone pairs were found; reviewing the top 20 by smallest distance is a practical first batch.
+
 
 ## 10. Recommendations template
 1. Add automated flags for accounts with high digit ratio and unusual engagement-per-follower.
