@@ -21,3 +21,6 @@
 
 ### Clone Account Detection (Euclidean Distance)
 * Using nearest-neighbor Euclidean distance and username similarity scoring, the pipeline flagged **30 high-confidence suspected clone pairs** (such as `kgohgun` vs. `kgohgun_` with a Euclidean distance of **0.0022** and **93.3%** username similarity).
+
+
+![Executive Dashboard](docs/images/dashboard.png)
